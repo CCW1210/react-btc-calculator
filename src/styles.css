@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 你可以在這裡添加一些全局自定義樣式，如果需要的話 */
+body {
+  @apply bg-gray-100 text-gray-800; /* 示例：設置全局背景和文字顏色 */
+}
